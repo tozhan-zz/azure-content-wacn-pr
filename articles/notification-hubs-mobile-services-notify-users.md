@@ -2,31 +2,37 @@
 # <a name="getting-started"> </a>使用通知中心通知用户
 
 <div class="dev-center-tutorial-selector sublanding">
-    <a href="/zh-cn/manage/services/notification-hubs/notify-users" title="移动服务" class="current">移动服务</a><a href="/zh-cn/manage/services/notification-hubs/notify-users-aspnet" title="ASP.NET">ASP.NET</a>
+    <!--<a href="/zh-cn/manage/services/notification-hubs/notify-users" title="移动服务" class="current">移动服务</a>--><a href="/zh-cn/manage/services/notification-hubs/notify-users-aspnet" title="ASP.NET">ASP.NET</a>
 </div> 
 
-本教程演示如何使用 Azure 通知中心将推送通知发送到特定设备上的特定应用程序用户。使用 Azure 移动服务后端对客户端进行身份验证和生成通知。本教程以您在前面的**通知中心入门**教程中创建的通知中心为基础。将通知注册代码从客户端移到后端服务。这确保仅在客户端已经过服务验证后才完成注册。它还表示通知中心凭据不随客户端应用程序一起分发。服务还控制在注册期间请求的标签。
+本教程演示如何使用 Azure 通知中心将推送通知发送到特定设备上的特定应用程序用户。<!--使用 Azure 移动服务后端对客户端进行身份验证和生成通知。-->本教程以您在前面的**通知中心入门**教程中创建的通知中心为基础。将通知注册代码从客户端移到后端服务。这确保仅在客户端已经过服务验证后才完成注册。它还表示通知中心凭据不随客户端应用程序一起分发。服务还控制在注册期间请求的标签。
 
 本教程将指导您完成以下基本步骤：
 
-+ [更新移动服务以注册通知]
+<!--+ [更新移动服务以注册通知]-->
 + [更新应用程序以登录和请求注册]
+
+<!--
 + [更新移动服务以发送通知]
+-->
 
 ## 先决条件
 
 在您开始本教程之前，必须先完成以下教程：
 
-+ **通知中心入门**（[Windows 应用商店 C#][Get started Windows Store]/[iOS][Get started iOS]/[Android][Get started Android]）
++ **通知中心入门**（[Windows 应用商店 C#][Get started Windows Store]
 
-+ **移动服务中身份验证入门**（[Windows 应用商店 C#][Get started auth Windows Store]/[iOS][Get started auth iOS]/[Android][Get started auth Android]）
+ <!--/[iOS][Get started iOS]/[Android][Get started Android]-->）
 
-本教程以您在**通知中心入门**中创建的应用程序和通知中心为基础。它还利用您在**移动服务中身份验证入门**中配置的经过身份验证的移动服务。
+<!--+ **移动服务中身份验证入门**（[Windows 应用商店 C#][Get started auth Windows Store]/[iOS][Get started auth iOS]/[Android][Get started auth Android]）-->
 
+本教程以您在**通知中心入门**中创建的应用程序和通知中心为基础。<!--它还利用您在**移动服务中身份验证入门**中配置的经过身份验证的移动服务。-->
+<!--
 <div class="dev-callout"><b>注意</b>
 	<p>默认情况下，<strong>移动服务中身份验证入门</strong>教程使用 Facebook 身份验证。您不能在此教程中使用 Microsoft 帐户身份验证，因为两个 Windows 应用商店应用程序无法共享单个 Live Connect 注册。要使用 Microsoft 帐户身份验证，移动服务和通知中心必须注册到 Live Connect 中的同一应用程序。</p>
 </div>
-
+-->
+<!--
 <h2><a name="register-notification"></a><span class="short-header">注册通知</span>更新移动服务以注册通知</h2>
 
 因为通知注册只能在客户端已经过服务的身份验证后才能完成，由在移动服务中定义的自定义 API 来执行注册。经过身份验证的客户端调用这个自定义 API 来请求注册通知。在此节中，您将更新经过身份验证的移动服务，该服务是在您完成**移动服务中身份验证入门**教程时定义的。
@@ -134,15 +140,19 @@
 	<div class="dev-callout"><b>注意</b>
 		<p>确保将 <strong>DefaultFullSharedAccessSignature</strong> 用于 <em><code>&lt;FULL_SAS_CONNECTION_STRING&gt;</code></em>。此声明允许您的自定义 API 方法创建和更新注册。</p>
 	</div>
-
+-->
 <h2><a name="update-app"></a><span class="short-header">更新应用程序</span>更新应用程序以登录和请求注册</h2>
 
 接下来，您需要通过调用新的自定义 API 来更新 TodoList 应用程序以请求注册通知。
 
-1. 根据您的客户端平台，按**通过使用移动服务注册推送通知的当前用户**的以下版本之一中的步骤操作：
+1. 根据您的客户端平台，按**注册推送通知的当前用户**的以下版本之一中的步骤操作：
 
 	+ [Windows 应用商店 C# 版本][Client topic Windows Store C# version]
+
+	<!--
 	+ [iOS 版本][Client topic iOS version]
+	-->
+	
 
 2. 运行更新的应用程序，使用 Facebook 登录，然后验证是否显示分配给通知的注册 ID。
 
