@@ -197,7 +197,7 @@
 
 您可以在 MSDN 上的 [toast 目录]、[磁贴目录]和[徽章概述]中查看所有可能的负载。
 
-要使用移动服务发送通知，请按[移动服务入门]中的说明操作，然后执行以下操作：
+<!--要使用移动服务发送通知，请按[移动服务入门]中的说明操作，然后执行以下操作：
 
 1. 登录到 [Azure 管理门户]，并单击您的移动服务。
 
@@ -226,7 +226,7 @@
                 }
         });
 
-6. 单击底部栏上的“运行一次”。您应接收 toast 通知。
+6. 单击底部栏上的“运行一次”。您应接收 toast 通知。-->
 
 ## <a name="next-steps"> </a>后续步骤
 
@@ -265,7 +265,7 @@
 [“提交应用程序”页]: http://go.microsoft.com/fwlink/p/?LinkID=266582
 [我的应用程序]: http://go.microsoft.com/fwlink/p/?LinkId=262039
 [Live SDK for Windows]: http://go.microsoft.com/fwlink/p/?LinkId=262253
-[移动服务入门]: /zh-cn/develop/mobile/tutorials/get-started/#create-new-service
+<!--[移动服务入门]: /zh-cn/develop/mobile/tutorials/get-started/#create-new-service-->
 [开始使用数据]: /zh-cn/develop/mobile/tutorials/get-started-with-data-dotnet
 [身份验证入门]: /zh-cn/develop/mobile/tutorials/get-started-with-users-dotnet
 [推送通知入门]: /zh-cn/develop/mobile/tutorials/get-started-with-push-dotnet
