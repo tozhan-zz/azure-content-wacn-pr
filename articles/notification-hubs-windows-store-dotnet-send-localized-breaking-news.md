@@ -159,7 +159,7 @@ Notifications 单一实例的调用：
 
 <h2><a name="send"></a><span class="short-header">发送本地化的通知</span>从后端发送本地化的通知</h2>
 
-[WACOM.INCLUDE [notification-hubs-localized-back-end](../includes/notification-hubs-localized-back-end.md)]
+[WACN.INCLUDE [notification-hubs-localized-back-end](../includes/notification-hubs-localized-back-end.md)]
 
 
 
@@ -167,7 +167,7 @@ Notifications 单一实例的调用：
 
 ## 后续步骤
 
-有关使用模板的更多信息，请参见[使用通知中心通知用户：ASP.NET]、[使用通知中心通知用户：移动服务]以及[通知中心指南]。一个模板表达语言的参考是[针对 Windows 应用商店的通知中心操作指南]。
+有关使用模板的更多信息，请参见[使用通知中心通知用户：ASP.NET]<!--[使用通知中心通知用户：移动服务]-->以及[通知中心指南]。一个模板表达语言的参考是[针对 Windows 应用商店的通知中心操作指南]。
 
 <!-- Anchors. -->
 [模板概念]: #concepts
