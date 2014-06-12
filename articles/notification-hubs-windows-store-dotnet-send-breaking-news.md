@@ -173,11 +173,11 @@
 
 	![][19]
 
-4. 使用以下方式之一从后端发送新通知：
+4. 使用以下方式从后端发送新通知：
 
 	+ **控制台应用程序：**启动控制台应用程序。
 
-	+ **移动服务：**单击“计划程序”选项卡，单击该作业，然后单击“运行一次”。
+	<!--+ **移动服务：**单击“计划程序”选项卡，单击该作业，然后单击“运行一次”。-->
 
 	所选类别的通知作为 toast 通知显示。
 
@@ -215,14 +215,14 @@
 [get-started]: /zh-cn/manage/services/notification-hubs/getting-started-windows-dotnet/
 [使用通知中心广播本地化的突发新闻]: /zh-cn/manage/services/notification-hubs/breaking-news-localized-dotnet/ 
 [使用通知中心通知用户]: /zh-cn/manage/services/notification-hubs/notify-users
-[移动服务]: /zh-cn/develop/mobile/tutorials/get-started/
+<!--[移动服务]: /zh-cn/develop/mobile/tutorials/get-started/-->
 [通知中心指南]: http://msdn.microsoft.com/zh-cn/library/jj927170.aspx
 [针对 Windows 应用商店的通知中心操作指南]: http://msdn.microsoft.com/zh-cn/library/jj927172.aspx
 [“提交应用程序”页]: http://go.microsoft.com/fwlink/p/?LinkID=266582
 [我的应用程序]: http://go.microsoft.com/fwlink/p/?LinkId=262039
 [Live SDK for Windows]: http://go.microsoft.com/fwlink/p/?LinkId=262253
 
-[Azure 管理门户]: https://manage.windowsazure.com/
+[Azure 管理门户]: https://manage.windowsazure.cn/
 [wns 对象]: http://go.microsoft.com/fwlink/p/?LinkId=260591
 
 
