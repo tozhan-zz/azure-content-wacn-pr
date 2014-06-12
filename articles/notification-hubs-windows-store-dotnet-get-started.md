@@ -21,11 +21,11 @@
 
 完成本教程是学习有关 Windows 应用商店应用程序的所有其他通知中心教程的先决条件。
 
-<div class="dev-callout"><strong>注意</strong> <p>要完成本教程，您必须有一个有效的 Windows Azure 帐户。如果您没有帐户，则可以创建一个免费的试用帐户，只需几分钟即可完成。有关详细信息，请参见 <a href="http://www.windowsazure.com/zh-cn/pricing/free-trial/?WT.mc_id=A0E0E5C02&amp;returnurl=http%3A%2F%2Fwww.windowsazure.com%2Fen-us%2Fdevelop%2Fmobile%2Ftutorials%2Fget-started%2F" target="_blank">Azure 免费试用</a>。</p></div>
+<div class="dev-callout"><strong>注意</strong> <p>要完成本教程，您必须有一个有效的 Windows Azure 帐户。如果您没有帐户，则可以创建一个免费的试用帐户，只需几分钟即可完成。有关详细信息，请参见 <a href="http://www.windowsazure.cn/zh-cn/pricing/free-trial/">Azure 免费试用</a>。</p></div>
 
 <h2><a name="register"></a><span class="short-header">注册应用程序</span>向 Windows 应用商店注册应用程序</h2>
 
-要从移动服务将推送通知发送到 Windows 应用商店应用程序，您必须将您的应用程序提交到 Windows 应用商店。然后必须将通知中心配置为与 WNS 集成。
+要<!--从移动服务-->将推送通知发送到 Windows 应用商店应用程序，您必须将您的应用程序提交到 Windows 应用商店。然后必须将通知中心配置为与 WNS 集成。
 
 1. 如果尚未注册应用程序，则导航到 Windows 应用商店应用程序的开发人员中心内的[“提交应用程序”页]，用 Microsoft 帐户登录，然后单击“应用程序名称”。
 
@@ -149,7 +149,7 @@
 
 <h2><a name="send"></a><span class="short-header">发送通知</span>从后端发送通知</h2>
 
-您可以使用通知中心通过 <a href="http://msdn.microsoft.com/zh-cn/library/windowsazure/dn223264.aspx">REST 接口</a>从任意后端发送通知。在本教程中，您使用 .NET 控制台应用程序和移动服务来发送通知，通过节点脚本来执行这些操作。
+您可以使用通知中心通过 <a href="http://msdn.microsoft.com/zh-cn/library/windowsazure/dn223264.aspx">REST 接口</a>从任意后端发送通知。在本教程中，您使用 .NET 控制台应用程序<!--和移动服务-->来发送通知，通过节点脚本来执行这些操作。
 
 使用 .NET 应用程序发送通知：
 
