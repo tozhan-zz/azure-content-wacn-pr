@@ -3,7 +3,7 @@
 # 使用通知中心向用户发送跨平台通知
 
 <div class="dev-center-tutorial-selector sublanding">
-    <a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-mobile-services/" title="移动服务" class="current">移动服务</a>
+    <!--<a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-mobile-services/" title="移动服务" class="current">移动服务</a>-->
     <a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-aspnet/" title="ASP.NET">ASP.NET</a>
 </div> 
 
@@ -13,7 +13,7 @@
 	<p>通知中心允许设备使用同一标签注册多个模板。在这种情况下，针对该标签的传入消息将导致多个通知发送到设备（每个通知对应一个模板）。这允许您在多个可视通知中显示同一消息，如作为 Windows 应用商店应用程序中的徽章和 toast 通知。</p>
 </div>
 
-完成以下步骤来使用模板发送跨平台通知：
+完成以下步骤来使用模板发送跨平台通知：<!--
 	
 1. 登录到 [Azure 管理门户][Management Portal]，单击“移动服务”，然后单击您的应用程序。
 
@@ -93,7 +93,7 @@
 
 7. （可选）将客户端应用程序部署到第二个设备，然后运行该应用程序并插入文本。
 
-	请注意通知将显示在每个设备上。
+	-->请注意通知将显示在每个设备上。
 
 ## 后续步骤
 
