@@ -5,7 +5,7 @@
     <!--<a href="/zh-cn/manage/services/notification-hubs/notify-users" title="移动服务" class="current">移动服务</a>--><a href="/zh-cn/manage/services/notification-hubs/notify-users-aspnet" title="ASP.NET">ASP.NET</a>
 </div> 
 
-本教程演示如何使用 Azure 通知中心将推送通知发送到特定设备上的特定应用程序用户。<!--使用 Azure 移动服务后端对客户端进行身份验证和生成通知。-->本教程以您在前面的**通知中心入门**教程中创建的通知中心为基础。将通知注册代码从客户端移到后端服务。这确保仅在客户端已经过服务验证后才完成注册。它还表示通知中心凭据不随客户端应用程序一起分发。服务还控制在注册期间请求的标签。
+本教程演示如何使用 Azure 通知中心将推送通知发送到特定设备上的特定应用程序用户。本教程以您在前面的**通知中心入门**教程中创建的通知中心为基础。将通知注册代码从客户端移到后端服务。这确保仅在客户端已经过服务验证后才完成注册。它还表示通知中心凭据不随客户端应用程序一起分发。服务还控制在注册期间请求的标签。
 
 本教程将指导您完成以下基本步骤：
 
@@ -20,13 +20,11 @@
 
 在您开始本教程之前，必须先完成以下教程：
 
-+ **通知中心入门**（[Windows 应用商店 C#][Get started Windows Store]
-
- <!--/[iOS][Get started iOS]/[Android][Get started Android]-->）
++ **通知中心入门**（[Windows 应用商店 C#][Get started Windows Store]）
 
 <!--+ **移动服务中身份验证入门**（[Windows 应用商店 C#][Get started auth Windows Store]/[iOS][Get started auth iOS]/[Android][Get started auth Android]）-->
 
-本教程以您在**通知中心入门**中创建的应用程序和通知中心为基础。<!--它还利用您在**移动服务中身份验证入门**中配置的经过身份验证的移动服务。-->
+本教程以您在**通知中心入门**中创建的应用程序和通知中心为基础。
 <!--
 <div class="dev-callout"><b>注意</b>
 	<p>默认情况下，<strong>移动服务中身份验证入门</strong>教程使用 Facebook 身份验证。您不能在此教程中使用 Microsoft 帐户身份验证，因为两个 Windows 应用商店应用程序无法共享单个 Live Connect 注册。要使用 Microsoft 帐户身份验证，移动服务和通知中心必须注册到 Live Connect 中的同一应用程序。</p>
