@@ -13,7 +13,7 @@
 	<p>通知中心允许设备使用同一标签注册多个模板。在这种情况下，针对该标签的传入消息将导致多个通知发送到设备（每个通知对应一个模板）。这允许您在多个可视通知中显示同一消息，如作为 Windows 应用商店应用程序中的徽章和 toast 通知。</p>
 </div>
 
-完成以下步骤来使用模板发送跨平台通知：<!--
+完成以下步骤来使用模板发送跨平台通知：
 	
 1. 登录到 [Azure 管理门户][Management Portal]，单击“移动服务”，然后单击您的应用程序。
 
@@ -93,13 +93,13 @@
 
 7. （可选）将客户端应用程序部署到第二个设备，然后运行该应用程序并插入文本。
 
-	-->请注意通知将显示在每个设备上。
+	请注意通知将显示在每个设备上。
 
 ## 后续步骤
 
 现在，您已完成本教程，可以查看以下主题了解有关通知中心和模板的更多信息：
 
-+ **使用通知中心发送突发新闻（[Windows 应用商店 C#][Breaking news .NET] / [iOS][Breaking news iOS]）**<br/>演示使用模板的另一方案
++ **使用通知中心发送突发新闻（[Windows 应用商店 C#][Breaking news .NET]/iOS[Breaking news iOS]）**<br/>演示使用模板的另一方案
 
 +  **[Azure 通知中心概述][Templates]**<br/>“概述”主题提供有关模板的更多详细信息。
 
@@ -128,5 +128,5 @@
 [Azure 通知中心]: http://go.microsoft.com/fwlink/p/?LinkId=314257
 [使用通知中心通知用户]: /zh-cn/manage/services/notification-hubs/notify-users  
 [Templates]: http://go.microsoft.com/fwlink/p/?LinkId=317339
-[针对 Windows 应用商店的通知中心操作指南]: http://msdn.microsoft.com/zh-cn/library/windowsazure/jj927172.aspx
+[针对 Windows 应用商店的通知中心操作指南]: http://msdn.microsoft.com/zh-cn/library/azure/jj927172.aspx
 
