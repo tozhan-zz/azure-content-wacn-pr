@@ -99,7 +99,7 @@
 
 现在，您已完成本教程，可以查看以下主题了解有关通知中心和模板的更多信息：
 
-+ **使用通知中心发送突发新闻（[Windows 应用商店 C#][Breaking news .NET]/iOS[Breaking news iOS]）**<br/>演示使用模板的另一方案
++ **使用通知中心发送突发新闻（[Windows 应用商店 C#][Breaking news .NET]/[iOS][Breaking news iOS]）**<br/>演示使用模板的另一方案
 
 +  **[Azure 通知中心概述][Templates]**<br/>“概述”主题提供有关模板的更多详细信息。
 
