@@ -1,9 +1,7 @@
 <properties linkid="develop-notificationhubs-tutorials-send-breaking-news-windowsdotnet" urlDisplayName="突发新闻" pageTitle="通知中心突发新闻教程" metaKeywords="" description="了解如何使用 Azure Service Bus 通知中心发送突发新闻通知。" metaCanonical="" services="mobile-services,notification-hubs" documentationCenter="" title="使用通知中心发送突发新闻" authors="ricksal" solutions="" manager="" editor="" />
 
 # 使用通知中心发送突发新闻
-<div class="dev-center-tutorial-selector sublanding"> 
-    	<a href="/zh-cn/manage/services/notification-hubs/breaking-news-dotnet" title="Windows 应用商店 C#" class="current">Windows 应用商店 C#</a><a href="/zh-cn/manage/services/notification-hubs/breaking-news-wp8" title="Windows Phone">Windows Phone</a><a href="/zh-cn/manage/services/notification-hubs/breaking-news-ios" title="iOS">iOS</a>
-</div>
+ 
 
 本主题演示如何使用 Azure 通知中心将突发新闻通知广播到 Windows 应用商店应用程序。完成时，您可以注册感兴趣的突发新闻类别并仅接收这些类别的推送通知。此方案对于很多应用程序来说是常见模式，在其中必须将通知发送到以前声明过对它们感兴趣的一组用户，这样的应用程序有 RSS 阅读器、针对音乐迷的应用程序等。
 
