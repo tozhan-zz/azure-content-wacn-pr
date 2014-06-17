@@ -2,7 +2,7 @@
 
 # 通知中心入门
 
-<div class="dev-center-tutorial-selector sublanding"><a href="/zh-cn/manage/services/notification-hubs/getting-started-windows-dotnet" title="Windows 应用商店 C#" class="current">Windows 应用商店 C#</a><a href="/zh-cn/documentation/articles/notification-hubs-windows-phone-get-started/" title="Windows Phone">Windows Phone</a><a href="/zh-cn/documentation/articles/notification-hubs-ios-get-started/" title="iOS">iOS</a><a href="/zh-cn/documentation/articles/notification-hubs-android-get-started/" title="Android">Android</a><a href="/zh-cn/documentation/articles/notification-hubs-kindle-get-started/" title="Kindle">Kindle</a><a href="/zh-cn/documentation/articles/partner-xamarin-notification-hubs-ios-get-started/" title="Xamarin.iOS">Xamarin.iOS</a><a href="/zh-cn/documentation/articles/partner-xamarin-notification-hubs-android-get-started/" title="Xamarin.Android">Xamarin.Android</a></div>
+ 
 
 本主题演示如何使用 Azure 通知中心将推送通知发送到 Windows 应用商店应用程序。
 在本教程中，您将创建一个空白 Windows 应用商店应用程序，它使用 Windows 推送通知服务 (WNS) 接收推送通知。完成后，您将能使用通知中心将推送通知广播到运行您的应用程序的所有设备。
