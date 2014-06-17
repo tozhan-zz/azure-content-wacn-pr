@@ -1,9 +1,7 @@
 <properties linkid="develop-notificationhubs-tutorials-send-localized-breaking-news-windowsdotnet" urlDisplayName="本地化的突发新闻" pageTitle="通知中心本地化的突发新闻教程" metaKeywords="" description="了解如何使用 Windows Azure Service Bus 通知中心发送本地化的突发新闻通知。" metaCanonical="" services="mobile-services,notification-hubs" documentationCenter="" title="使用通知中心发送本地化的突发新闻" authors="ricksal" solutions="" manager="" editor="" />
 # 使用通知中心发送本地化的突发新闻
 
-<div class="dev-center-tutorial-selector sublanding"> 
-    	<a href="/zh-cn/manage/services/notification-hubs/breaking-news-localized-dotnet" title="Windows 应用商店 C#" class="current">Windows 应用商店 C#</a><a href="/zh-cn/manage/services/notification-hubs/breaking-news-localized-ios" title="iOS">iOS</a>
-</div>
+ 
 
 本主题演示如何使用 Azure 通知中心的**模板**功能广播已按语言和设备本地化的突发新闻通知。在本教程中，您从在[使用通知中心发送突发新闻]中创建的 Windows 应用商店应用程序开始操作。完成时，您将可以注册感兴趣的突发新闻类别，指定要接收通知的语言并仅接收采用该语言的这些类别的推送通知。
 
