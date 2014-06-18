@@ -1,12 +1,12 @@
 <properties linkid="manage-services-notification-hubs-notify-users-xplat-mobile-services" urlDisplayName="通知用户 跨平台 移动服务" pageTitle="使用通知中心向用户发送跨平台通知（移动服务）" metaKeywords="" description="了解如何使用通知中心模板在一个请求中发送针对所有平台的平台未知通知。" metaCanonical="" services="mobile-services,notification-hubs" documentationCenter="" title="使用通知中心向用户发送跨平台通知" authors="glenga" solutions="" manager="" editor="" />
 
 # 使用通知中心向用户发送跨平台通知
-
+<!--
 <div class="dev-center-tutorial-selector sublanding">
-    <!--<a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-mobile-services/" title="移动服务" class="current">移动服务</a>-->
+    <a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-mobile-services/" title="移动服务" class="current">移动服务</a>
     <a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-aspnet/" title="ASP.NET">ASP.NET</a>
 </div> 
-
+-->
 在上一教程[使用通知中心通知用户]中，您了解了如何将通知推送到经过身份验证的特定用户所注册的所有设备。在该教程中，需要使用多个请求将通知发送到每个支持的客户端平台。通知中心支持模板，这允许您指定特定设备要如何接收通知。这简化了发送跨平台通知。本主题演示如何利用模板在单个请求中发送针对所有平台的平台未知通知。有关模板的更多详细信息，请参见 [Azure 通知中心概述][Templates]。
 
 <div class="dev-callout"><b>注意</b>
