@@ -1,10 +1,10 @@
 <properties linkid="notification-hubs-how-to-guides-howto-notify-users-mobileservices" urlDisplayName="通知用户" pageTitle="使用通知中心通知用户移动服务事件" metaKeywords="" description="遵循此教程使用通知中心注册以接收来自移动服务的通知" metaCanonical="" services="mobile-services,notification-hubs" documentationCenter="" title="使用通知中心通知用户" authors="glenga" solutions="" manager="" editor="" />
 # <a name="getting-started"> </a>使用通知中心通知用户
-
+<!--
 <div class="dev-center-tutorial-selector sublanding">
-    <!--<a href="/zh-cn/manage/services/notification-hubs/notify-users" title="移动服务" class="current">移动服务</a>--><a href="/zh-cn/manage/services/notification-hubs/notify-users-aspnet" title="ASP.NET">ASP.NET</a>
+    <a href="/zh-cn/manage/services/notification-hubs/notify-users" title="移动服务" class="current">移动服务</a><a href="/zh-cn/manage/services/notification-hubs/notify-users-aspnet" title="ASP.NET">ASP.NET</a>
 </div> 
-
+-->
 本教程演示如何使用 Azure 通知中心将推送通知发送到特定设备上的特定应用程序用户。本教程以您在前面的**通知中心入门**教程中创建的通知中心为基础。将通知注册代码从客户端移到后端服务。这确保仅在客户端已经过服务验证后才完成注册。它还表示通知中心凭据不随客户端应用程序一起分发。服务还控制在注册期间请求的标签。
 
 本教程将指导您完成以下基本步骤：
