@@ -155,7 +155,7 @@
 
 <h2><a name="send"></a><span class="short-header">发送通知</span>从后端发送通知</h2>
 
-[WACOM.INCLUDE [notification-hubs-back-end](../includes/notification-hubs-back-end.md)]
+[WACN.INCLUDE [notification-hubs-back-end](../includes/notification-hubs-back-end.md)]
 
 ##<a name="test-app"></a>运行应用程序并生成通知
 
@@ -210,9 +210,9 @@
 [19]: ./media/notification-hubs-windows-store-dotnet-send-breaking-news/notification-hub-windows-reg-2.png
 
 <!-- URLs.-->
-[get-started]: /zh-cn/manage/services/notification-hubs/getting-started-windows-dotnet/
-[使用通知中心广播本地化的突发新闻]: /zh-cn/manage/services/notification-hubs/breaking-news-localized-dotnet/ 
-[使用通知中心通知用户]: /zh-cn/manage/services/notification-hubs/notify-users
+[get-started]: /zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-get-started/
+[使用通知中心广播本地化的突发新闻]: /zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-send-localized-breaking-news/ 
+[使用通知中心通知用户]: /zh-cn/documentation/articles/notification-hubs-mobile-services-notify-users/
 <!--[移动服务]: /zh-cn/develop/mobile/tutorials/get-started/-->
 [通知中心指南]: http://msdn.microsoft.com/zh-cn/library/jj927170.aspx
 [针对 Windows 应用商店的通知中心操作指南]: http://msdn.microsoft.com/zh-cn/library/jj927172.aspx
