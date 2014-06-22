@@ -3,7 +3,7 @@
 # 使用通知中心向用户发送跨平台通知
 <!--
 <div class="dev-center-tutorial-selector sublanding">
-    <a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-mobile-services/" title="移动服务" class="current">移动服务</a>
+    <a href="/zh-cn/documentation/articles/notification-hubs-mobile-services-notify-users/" title="移动服务" class="current">移动服务</a>
     <a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-aspnet/" title="ASP.NET">ASP.NET</a>
 </div> 
 -->
@@ -99,7 +99,7 @@
 
 现在，您已完成本教程，可以查看以下主题了解有关通知中心和模板的更多信息：
 
-+ **使用通知中心发送突发新闻（[Windows 应用商店 C#][Breaking news .NET] / [iOS][Breaking news iOS]）**<br/>演示使用模板的另一方案
++ **使用通知中心发送突发新闻（[Windows 应用商店 C#][Breaking news .NET]）**<br/>演示使用模板的另一方案
 
 +  **[Azure 通知中心概述][Templates]**<br/>“概述”主题提供有关模板的更多详细信息。
 
@@ -118,13 +118,13 @@
 [3]: ./media/notification-hubs-mobile-services-cross-platform-notify-users/mobile-insert-script-push2.png
 <!-- URLs. -->
 [推送到用户 - ASP.NET]: /zh-cn/manage/services/notification-hubs/notify-users-aspnet/
-[推送到用户 - 移动服务]: /zh-cn/manage/services/notification-hubs/notify-users/
+[推送到用户 - 移动服务]: /zh-cn/documentation/articles/notification-hubs-mobile-services-notify-users/
 [Visual Studio 2012 Express for Windows 8]: http://go.microsoft.com/fwlink/?LinkId=257546
 
 [管理门户]: https://manage.windowsazure.com/
-[使用通知中心向用户发送跨平台通知]: /zh-cn/manage/services/notification-hubs/notify-users-xplat-mobile-services/
-[Breaking news .NET]: /zh-cn/manage/services/notification-hubs/breaking-news-dotnet
-[Breaking news iOS]: /zh-cn/manage/services/notification-hubs/breaking-news-ios
+[使用通知中心向用户发送跨平台通知]: /zh-cn/documentation/articles/notification-hubs-mobile-services-cross-platform-notify-users/
+[Breaking news .NET]: /zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-send-breaking-news/
+<!--[Breaking news iOS]: /zh-cn/manage/services/notification-hubs/breaking-news-ios-->
 [Azure 通知中心]: http://go.microsoft.com/fwlink/p/?LinkId=314257
 [使用通知中心通知用户]: /zh-cn/documentation/articles/notification-hubs-mobile-services-notify-users/
 [Templates]: http://go.microsoft.com/fwlink/p/?LinkId=317339
