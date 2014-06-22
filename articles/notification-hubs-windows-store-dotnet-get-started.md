@@ -149,7 +149,7 @@
 
 <h2><a name="send"></a><span class="short-header">发送通知</span>从后端发送通知</h2>
 
-您可以使用通知中心通过 <a href="http://msdn.microsoft.com/zh-cn/library/azure/dn223264.aspx">REST 接口</a>从任意后端发送通知。在本教程中，您使用 .NET 控制台应用程序<!--和移动服务-->来发送通知，通过节点脚本来执行这些操作。
+您可以使用通知中心通过 <a href="http://msdn.microsoft.com/zh-cn/library/azure/dn223264.aspx">REST 接口</a>从任意后端发送通知。在本教程中，您使用 .NET 控制台应用程序来发送通知，通过节点脚本来执行这些操作。
 
 使用 .NET 应用程序发送通知：
 
