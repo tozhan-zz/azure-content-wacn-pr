@@ -25,7 +25,7 @@
 
 <h2><a name="register"></a><span class="short-header">注册应用程序</span>向 Windows 应用商店注册应用程序</h2>
 
-要<!--从移动服务-->将推送通知发送到 Windows 应用商店应用程序，您必须将您的应用程序提交到 Windows 应用商店。然后必须将通知中心配置为与 WNS 集成。
+要将推送通知发送到 Windows 应用商店应用程序，您必须将您的应用程序提交到 Windows 应用商店。然后必须将通知中心配置为与 WNS 集成。
 
 1. 如果尚未注册应用程序，则导航到 Windows 应用商店应用程序的开发人员中心内的[“提交应用程序”页]，用 Microsoft 帐户登录，然后单击“应用程序名称”。
 
@@ -149,7 +149,7 @@
 
 <h2><a name="send"></a><span class="short-header">发送通知</span>从后端发送通知</h2>
 
-您可以使用通知中心通过 <a href="http://msdn.microsoft.com/zh-cn/library/windowsazure/dn223264.aspx">REST 接口</a>从任意后端发送通知。在本教程中，您使用 .NET 控制台应用程序<!--和移动服务-->来发送通知，通过节点脚本来执行这些操作。
+您可以使用通知中心通过 <a href="http://msdn.microsoft.com/zh-cn/library/azure/dn223264.aspx">REST 接口</a>从任意后端发送通知。在本教程中，您使用 .NET 控制台应用程序<!--和移动服务-->来发送通知，通过节点脚本来执行这些操作。
 
 使用 .NET 应用程序发送通知：
 
@@ -273,13 +273,13 @@
 [使用脚本为用户授权]: /zh-cn/develop/mobile/tutorials/authorize-users-in-scripts-dotnet
 [JavaScript 和 HTML]: /zh-cn/develop/mobile/tutorials/get-started-with-push-js
 
-[Azure 管理门户]: https://manage.windowsazure.com/
+[Azure 管理门户]: https://manage.windowsazure.cn/
 [wns 对象]: http://go.microsoft.com/fwlink/p/?LinkId=260591
 [通知中心指南]: http://msdn.microsoft.com/zh-cn/library/jj927170.aspx
 [针对 Windows 应用商店的通知中心操作指南]: http://msdn.microsoft.com/zh-cn/library/jj927172.aspx
 
 [使用通知中心将通知推送到用户]: /zh-cn/manage/services/notification-hubs/notify-users-aspnet
-[使用通知中心发送突发新闻]: /zh-cn/manage/services/notification-hubs/breaking-news-dotnet
+[使用通知中心发送突发新闻]: /zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-send-breaking-news/
 
 [toast 目录]: http://msdn.microsoft.com/zh-cn/library/windows/apps/hh761494.aspx
 [磁贴目录]: http://msdn.microsoft.com/zh-cn/library/windows/apps/hh761491.aspx
