@@ -202,7 +202,7 @@
 		    });
 		}
 	
-	这尝试将通知发送到 Windows 应用商店和 iOS 应用程序中的当前已注册用户的标签。
+	这尝试将通知发送到 Windows 应用商店应用程序中的当前已注册用户的标签。
 		
 4. 更新该脚本以将 _`<NOTIFICATION_HUB_NAME>`_ 和 _`<FULL_SAS_CONNECTION_STRING>`_ 替换为用于您通知中心的值，然后单击“保存”。
 
@@ -225,7 +225,7 @@
 	请注意，完成插入后，应用程序将收到来自通知中心的推送通知。
 
 	<div class="dev-callout"><b>注意</b>
-		<p>当缺少注册的平台（请求将通知发送到该平台）时，会在后端引发错误。在本示例中，可以忽略此错误。要了解如何使用模板来避免此情况，请参见<a href="/zh-cn/manage/services/notification-hubs/notify-users-xplat-mobile-services/" target="_blank">使用通知中心向用户发送跨平台通知</a>。</p>
+		<p>当缺少注册的平台（请求将通知发送到该平台）时，会在后端引发错误。在本示例中，可以忽略此错误。要了解如何使用模板来避免此情况，请参见<a href="/zh-cn/documentation/articles/notification-hubs-mobile-services-cross-platform-notify-users/" target="_blank">使用通知中心向用户发送跨平台通知</a>。</p>
 	</div>
 
 3. （可选）将客户端应用程序部署到第二个设备，然后运行该应用程序并插入文本。
@@ -235,7 +235,7 @@
 ## <a name="next-steps"> </a>后续步骤
 现在您已完成本教程，请考虑继续学习以下教程：
 
-+ **使用通知中心发送突发新闻（[Windows 应用商店 C#][Breaking news .NET] / [iOS][Breaking news iOS]）**<br/>此平台特定的教程演示如何使用标签来允许用户订阅他们感兴趣的通知类型。
++ **使用通知中心发送突发新闻（[Windows 应用商店 C#][Breaking news .NET]）**<br/>此平台特定的教程演示如何使用标签来允许用户订阅他们感兴趣的通知类型。
 
 + **[使用通知中心向用户发送跨平台通知]**<br/>此教程是对当前**使用通知中心通知用户**教程的扩展，以使用平台特定的模板来注册通知。这允许您使用服务器端代码中的单个方法来发送通知。
 
@@ -257,7 +257,7 @@
 [7]: ./media/notification-hubs-mobile-services-notify-users/notification-hub-connection-strings.png
 
 <!-- URLs. -->
-[Get started Windows Store]: /zh-cn/manage/services/notification-hubs/getting-started-windows-dotnet
+[Get started Windows Store]: /zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-get-started/
 [Get started iOS]: /zh-cn/manage/services/notification-hubs/get-started-notification-hubs-ios
 [Get started Android]: /zh-cn/manage/services/notification-hubs/get-started-notification-hubs-android
 [Get started auth Windows Store]: /zh-cn/develop/mobile/tutorials/get-started-with-users-dotnet/
@@ -267,9 +267,9 @@
 [Client topic iOS version]: /zh-cn/manage/services/notification-hubs/register-users-ios 
 [Visual Studio 2012 Express for Windows 8]: http://go.microsoft.com/fwlink/?LinkId=257546
 
-[Management Portal]: https://manage.windowsazure.com/
-[使用通知中心向用户发送跨平台通知]: /zh-cn/manage/services/notification-hubs/notify-users-xplat-mobile-services
-[Breaking news .NET]: /zh-cn/manage/services/notification-hubs/breaking-news-dotnet
-[Breaking news iOS]: /zh-cn/manage/services/notification-hubs/breaking-news-ios
-[Azure 通知中心]: http://msdn.microsoft.com/zh-cn/library/windowsazure/jj927170.aspx
+[Management Portal]: https://manage.windowsazure.cn/
+[使用通知中心向用户发送跨平台通知]: /zh-cn/documentation/articles/notification-hubs-mobile-services-cross-platform-notify-users/
+[Breaking news .NET]: /zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-send-breaking-news/
+<!--[Breaking news iOS]: /zh-cn/manage/services/notification-hubs/breaking-news-ios-->
+[Azure 通知中心]: http://msdn.microsoft.com/zh-cn/library/azure/jj927170.aspx
 
