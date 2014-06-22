@@ -126,7 +126,7 @@
 [Breaking news .NET]: /zh-cn/manage/services/notification-hubs/breaking-news-dotnet
 [Breaking news iOS]: /zh-cn/manage/services/notification-hubs/breaking-news-ios
 [Azure 通知中心]: http://go.microsoft.com/fwlink/p/?LinkId=314257
-[使用通知中心通知用户]: /zh-cn/manage/services/notification-hubs/notify-users  
+[使用通知中心通知用户]: /zh-cn/documentation/articles/notification-hubs-mobile-services-notify-users/
 [Templates]: http://go.microsoft.com/fwlink/p/?LinkId=317339
 [针对 Windows 应用商店的通知中心操作指南]: http://msdn.microsoft.com/zh-cn/library/azure/jj927172.aspx
 
