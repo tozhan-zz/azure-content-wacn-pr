@@ -165,7 +165,7 @@ Notifications 单一实例的调用：
 
 ## 后续步骤
 
-有关使用模板的更多信息，请参见[使用通知中心通知用户：ASP.NET]<!--[使用通知中心通知用户：移动服务]-->以及[通知中心指南]。一个模板表达语言的参考是[针对 Windows 应用商店的通知中心操作指南]。
+有关使用模板的更多信息，请参见[使用通知中心通知用户：ASP.NET]以及[通知中心指南]。一个模板表达语言的参考是[针对 Windows 应用商店的通知中心操作指南]。
 
 <!-- Anchors. -->
 [模板概念]: #concepts
@@ -199,8 +199,8 @@ Notifications 单一实例的调用：
 <!-- URLs. -->
 [移动服务]: /zh-cn/develop/mobile/tutorials/get-started
 [使用通知中心通知用户：ASP.NET]: /zh-cn/manage/services/notification-hubs/notify-users-aspnet
-[使用通知中心通知用户：移动服务]: /zh-cn/manage/services/notification-hubs/notify-users
-[使用通知中心发送突发新闻]: /zh-cn/manage/services/notification-hubs/breaking-news-dotnet 
+[使用通知中心通知用户：移动服务]: /zh-cn/documentation/articles/notification-hubs-mobile-services-notify-users/
+[使用通知中心发送突发新闻]: /zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-send-breaking-news/ 
 
 [“提交应用程序”页]: http://go.microsoft.com/fwlink/p/?LinkID=266582
 [我的应用程序]: http://go.microsoft.com/fwlink/p/?LinkId=262039
@@ -213,7 +213,7 @@ Notifications 单一实例的调用：
 [使用脚本为用户授权]: /zh-cn/develop/mobile/tutorials/authorize-users-in-scripts-dotnet
 [JavaScript 和 HTML]: /zh-cn/develop/mobile/tutorials/get-started-with-push-js
 
-[Azure 管理门户]: https://manage.windowsazure.com/
+[Azure 管理门户]: https://manage.windowsazure.cn/
 [wns 对象]: http://go.microsoft.com/fwlink/p/?LinkId=260591
 [通知中心指南]: http://msdn.microsoft.com/zh-cn/library/jj927170.aspx
 [针对 iOS 的通知中心操作指南]: http://msdn.microsoft.com/zh-cn/library/jj927168.aspx
