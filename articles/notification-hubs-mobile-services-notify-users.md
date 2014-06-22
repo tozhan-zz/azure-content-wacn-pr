@@ -190,14 +190,14 @@
 		                    console.log(error);
 		                }
 		            });
-		            <!--// Send to iOS apps.
+		            // Send to iOS apps.
 		            hub.apns.send(user.userId, {
 		                alert: item.text
 		            }, function(error) {
 		                if (error) {
 		                    console.log(error);
 		                }
-		            });-->
+		            });
 		        }
 		    });
 		}
