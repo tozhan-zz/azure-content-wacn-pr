@@ -1,16 +1,10 @@
 
-本节演示如何发送通知：
+本节演示如何通过两种不同的方式发送通知：
 
 - [通过控制台应用程序]
-
-<!--
 - [通过移动服务]
---> 
 
-
-<!--这两种后端都会向 Windows 应用商店和 iOS 设备发送通知。-->
-
-您可使用[通知中心 REST 接口]通过任何后端发送通知。
+这两种后端都会向 Windows 应用商店和 iOS 设备发送通知。您可使用[通知中心 REST 接口]通过任何后端发送通知。
 
 <h3><a name="console"></a>通过使用 C# 的控制台应用程序发送通知</h3>
 
@@ -78,10 +72,10 @@
             }
 		 }
 
-	此代码将针对字符串数组中的所有 6 个标记将通知发送到 Windows 应用商店。使用标记是为了确保设备仅接收注册类别的通知。
+	此代码将针对字符串数组中的所有 6 个标记将通知发送到 Windows 应用商店、Windows Phone 和 iOS 设备。使用标记是为了确保设备仅接收注册类别的通知。
 	
 	<div class="dev-callout"><strong>注意</strong>
-		<p>此后端代码支持 Windows 应用商店<!--、Windows Phone 和 iOS 客户端-->。发送方法将在尚未为特定客户端平台配置通知中心时返回错误响应。</p>
+		<p>此后端代码支持 Windows 应用商店、Windows Phone 和 iOS 客户端。发送方法将在尚未为特定客户端平台配置通知中心时返回错误响应。</p>
 	</div>
 
 6. 在上面的代码中，将 `<hub name>` 和 `<connection string with full access>` 占位符替换为您的通知中心的名称和您之前获取的 *DefaultFullSharedAccessSignature* 的连接字符串。
@@ -92,7 +86,7 @@
 		 Console.ReadLine();
 
 您现在可继续[运行应用程序和生成通知]。
-<!--
+
 ###<a name="mobile-services"></a>通过移动服务发送通知
 
 若要使用移动服务发送通知，请执行下列操作：
@@ -153,10 +147,10 @@
 	</div>
 
 您现在可继续[运行应用程序和生成通知]。
--->
+
 <!-- Anchors -->
 [通过控制台应用程序]: #console
-<!--[通过移动服务]: #mobile-services-->
+[通过移动服务]: #mobile-services
 [运行应用程序和生成通知]: #test-app
 
 <!-- Images. -->
@@ -168,8 +162,8 @@
 <!-- URLs. -->
 [get-started]: /zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-get-started/
 [使用通知中心向用户发送通知]: ../notificationhubs/tutorial-notify-users-mobileservices.md
-<!--[移动服务入门]: /zh-cn/develop/mobile/tutorials/get-started/#create-new-service-->
-[Azure 管理门户]: https://manage.windowsazure.cn/
+[移动服务入门]: /zh-cn/develop/mobile/tutorials/get-started/#create-new-service
+[Azure 管理门户]: https://manage.windowsazure.com/
 [wns 对象]: http://go.microsoft.com/fwlink/p/?LinkId=260591
 [通知中心指南]: http://msdn.microsoft.com/zh-cn/library/jj927170.aspx
 [针对 Windows 应用商店的通知中心操作指南]: http://msdn.microsoft.com/zh-cn/library/jj927172.aspx
