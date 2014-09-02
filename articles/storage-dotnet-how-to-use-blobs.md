@@ -1,4 +1,4 @@
-<properties linkid="dev-net-2-how-to-blob-storage" urlDisplayName="Blob Service" pageTitle="How to use blob storage from .NET | Microsoft Azure" metaKeywords="Get started Azure blob   Azure unstructured data   Azure unstructured storage   Azure blob   Azure blob storage   Azure blob .NET   Azure blob C#   Azure blob C#" description="Learn how to use the Windows Azure blob service to upload,  download, list, and delete blob content. Samples are written in C#." metaCanonical="" disqusComments="1" umbracoNaviHide="1" services="storage" documentationCenter="" title="How to use the Windows Azure Blob Storage Service in .NET" authors="tamram" />
+<properties linkid="dev-net-how-to-blob-storage" urlDisplayName="Blob Service" pageTitle="How to use blob storage from .NET | Microsoft Azure" metaKeywords="Get started Azure blob   Azure unstructured data   Azure unstructured storage   Azure blob   Azure blob storage   Azure blob .NET   Azure blob C#   Azure blob C#" description="Learn how to use Microsoft Azure Blob storage to upload,  download, list, and delete blob content. Samples are written in C#." metaCanonical="" disqusComments="1" umbracoNaviHide="1" services="storage" documentationCenter=".NET" title="How to use Microsoft Azure Blob storage in .NET" authors="tamram" manager="mbaldwin" editor="cgronlun" />
 
 # 如何通过 .NET 使用 Blob 存储
 
@@ -7,6 +7,8 @@
 使用了 Azure .NET 存储客户端库。涉及的任务包括
 **上载**、**列出**、**下载**和**删除** Blob。有关 Blob 的
 详细信息，请参阅[后续步骤][]部分。
+
+> [WACOM.NOTE] 本指南适用于 Azure .NET 存储客户端库 2.x 及更高版本。建议使用的版本是存储客户端库 3.x，可通过 NuGet 或 Azure SDK for .NET 2.3 获得。有关如何获取存储客户端库的详细信息，请参阅[如何：以编程方式访问 Blob 存储][]。
 
 ## 目录
 
@@ -115,8 +117,8 @@ Azure SDK for .NET 中也包括了 `Microsoft.WindowsAzure.Storage.dll`，可从
 
 可以使用 **CloudStorageAccount** 类型来表示你的存储
 帐户信息。如果你使用的
-是 Windows Azure 项目模板并且/或者引用了
- Microsoft.WindowsAzure.CloudConfigurationManager，
+是 Azure 项目模板并且/或者引用了
+Microsoft.WindowsAzure.CloudConfigurationManager，
 则可以使用 **CloudConfigurationManager** 类型
 从 Azure 服务配置中检索你的存储连接字符串和
 存储帐户信息：
@@ -174,7 +176,7 @@ Azure SDK for .NET 中也包括了 `Microsoft.WindowsAzure.Storage.dll`，可从
 Internet 上的所有人都可以查看公共容器中的 Blob，但必须
 提供相应的访问密钥时才能修改或删除它们。
 
-## 上载到容器如何：将 Blob 上载到容器中
+## 上载到容器如何：将 Blob 上载到容器
 
 Azure Blob 存储支持块 Blob 和页 Blob。大多数情况下，推荐使用块 Blob。
 
@@ -282,14 +284,14 @@ Azure Blob 存储支持块 Blob 和页 Blob。大多数情况下，推荐使用�
 
 下面是结果：
 
-    Block blob of length 4:https://<accountname>.blob.core.chinacloudapi.cnt/photos/2010/architecture/description.txt
-    Block blob of length 314618:https://<accountname>.blob.core.chinacloudapi.cnt/photos/2010/architecture/photo3.jpg
-    Block blob of length 522713:https://<accountname>.blob.core.chinacloudapi.cnt/photos/2010/architecture/photo4.jpg
-    Block blob of length 4:https://<accountname>.blob.core.chinacloudapi.cnt/photos/2011/architecture/description.txt
-    Block blob of length 419048:https://<accountname>.blob.core.chinacloudapi.cnt/photos/2011/architecture/photo5.jpg
-    Block blob of length 506388:https://<accountname>.blob.core.chinacloudapi.cnt/photos/2011/architecture/photo6.jpg
-    Block blob of length 399751:https://<accountname>.blob.core.chinacloudapi.cnt/photos/2011/photo7.jpg
-    Block blob of length 505623:https://<accountname>.blob.core.chinacloudapi.cnt/photos/photo1.jpg
+    Block blob of length 4:https://<accountname>.blob.core.chinacloudapi.cn/photos/2010/architecture/description.txt
+    Block blob of length 314618:https://<accountname>.blob.core.chinacloudapi.cn/photos/2010/architecture/photo3.jpg
+    Block blob of length 522713:https://<accountname>.blob.core.chinacloudapi.cn/photos/2010/architecture/photo4.jpg
+    Block blob of length 4:https://<accountname>.blob.core.chinacloudapi.cn/photos/2011/architecture/description.txt
+    Block blob of length 419048:https://<accountname>.blob.core.chinacloudapi.cn/photos/2011/architecture/photo5.jpg
+    Block blob of length 506388:https://<accountname>.blob.core.chinacloudapi.cn/photos/2011/architecture/photo6.jpg
+    Block blob of length 399751:https://<accountname>.blob.core.chinacloudapi.cn/photos/2011/photo7.jpg
+    Block blob of length 505623:https://<accountname>.blob.core.chinacloudapi.cn/photos/photo1.jpg
 
 有关详细信息，请参阅 [CloudBlobContainer.ListBlobs][]。
 
@@ -373,14 +375,15 @@ Azure Blob 存储支持块 Blob 和页 Blob。大多数情况下，推荐使用�
 -   在以下位置了解使用 Azure 存储空间能够执行的更高级任务：[在 Azure 中存储和访问数据][]。
 -   查看更多功能指南，以了解在 Azure 中存储数据的其他方式。
     -   使用[表存储][]来存储结构化数据。
+    -   使用[队列存储][]来存储非结构化数据。
     -   使用 [SQL Database][] 来存储关系数据。
 
   [后续步骤]: #next-steps
+  [如何：以编程方式访问 Blob 存储]: #configure-access
   [什么是 Blob 存储]: #what-is
   [概念]: #concepts
   [创建 Azure 存储帐户]: #create-account
   [设置存储连接字符串]: #setup-connection-string
-  [如何：以编程方式访问 Blob 存储]: #configure-access
   [如何：创建容器]: #create-container
   [如何：将 Blob 上载到容器中]: #upload-blob
   [如何：列出容器中的 Blob]: #list-blob
@@ -388,18 +391,19 @@ Azure Blob 存储支持块 Blob 和页 Blob。大多数情况下，推荐使用�
   [如何：删除 Blob]: #delete-blobs
   [howto-blob-storage]: ../includes/howto-blob-storage.md
   [create-storage-account]: ../includes/create-storage-account.md
-  [在 Visual Studio 中选择云服务角色的属性]: ./media/storage-dotnet-how-to-use-blobs-20/blob5.png
-  [在 Visual Studio 中添加云服务设置]: ./media/storage-dotnet-how-to-use-blobs-20/blob6.png
-  [Blob7]: ./media/storage-dotnet-how-to-use-blobs-20/blob7.png
-  [Blob8]: ./media/storage-dotnet-how-to-use-blobs-20/blob8.png
-  [Blob9]: ./media/storage-dotnet-how-to-use-blobs-20/blob9.png
+  [在 Visual Studio 中选择云服务角色的属性]: ./media/storage-dotnet-how-to-use-blobs/blob5.png
+  [在 Visual Studio 中添加云服务设置]: ./media/storage-dotnet-how-to-use-blobs/blob6.png
+  [Blob7]: ./media/storage-dotnet-how-to-use-blobs/blob7.png
+  [Blob8]: ./media/storage-dotnet-how-to-use-blobs/blob8.png
+  [Blob9]: ./media/storage-dotnet-how-to-use-blobs/blob9.png
   [配置连接字符串]: http://msdn.microsoft.com/zh-cn/library/azure/ee758697.aspx
   [.NET 开发人员中心]: http://azure.microsoft.com/zh-cn/develop/net/
   [OData]: http://nuget.org/packages/Microsoft.Data.OData/5.0.2
   [Edm]: http://nuget.org/packages/Microsoft.Data.Edm/5.0.2
   [Spatial]: http://nuget.org/packages/System.Spatial/5.0.2
-  [.NET 存储客户端库参考]: http://msdn.microsoft.com/zh-cn/library/azure/dn495001(v=azure.10).aspx
+  [.NET 存储客户端库参考]: http://msdn.microsoft.com/zh-cn/library/azure/dn261237.aspx
   [REST API 参考]: http://msdn.microsoft.com/zh-cn/library/azure/dd179355
   [在 Azure 中存储和访问数据]: http://msdn.microsoft.com/zh-cn/library/azure/gg433040.aspx
-  [表存储]: /en-us/develop/net/how-to-guides/table-services/
-  [SQL Database]: /en-us/develop/net/how-to-guides/sql-database/
+  [表存储]: /en-us/documentation/articles/storage-dotnet-how-to-use-tables/
+  [队列存储]: /en-us/documentation/articles/storage-dotnet-how-to-use-queues/
+  [SQL Database]: /en-us/documentation/articles/sql-database-dotnet-how-to-use/

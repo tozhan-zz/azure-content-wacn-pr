@@ -1,12 +1,14 @@
-<properties linkid="dev-net-2-how-to-table-services" urlDisplayName="Table Service" pageTitle="How to use table storage  from .NET | Microsoft Azure" metaKeywords="Get started Azure table   Azure nosql   Azure large structured data store   Azure table   Azure table storage   Azure table .NET   Azure table storage .NET   Azure table C#   Azure table storage C#" description="Learn how to use table storage to create and delete tables and insert and query entities in a table." services="storage" documentationCenter=".NET" metaCanonical="" disqusComments="1" umbracoNaviHide="1" title="How to use the Table Storage Service" authors="tamram" />
+<properties linkid="dev-net-how-to-table-services" urlDisplayName="Table Service" pageTitle="How to use table storage  from .NET | Microsoft Azure" metaKeywords="Get started Azure table   Azure nosql   Azure large structured data store   Azure table   Azure table storage   Azure table .NET   Azure table storage .NET   Azure table C#   Azure table storage C#" description="Learn how to use Microsoft Azure Table storage to create and delete tables and insert and query entities in a table." services="storage" documentationCenter=".NET" metaCanonical="" disqusComments="1" umbracoNaviHide="1" title="How to use Microsoft Azure Table storage" authors="tamram" />
 
-# 如何通过 .NET 使用表存储服务
+# 如何通过 .NET 使用表存储
 
 本指南将演示如何使用 Azure 表存储服务执行常见方案。
 示例是用 C\# 代码编写的并使用了
 Azure .NET 存储客户端库。涉及的方案包括**创建和删除表**
 ，以及**使用表实体**。有关表的详细信息，请参阅
 [后续步骤][]部分。
+
+> [WACOM.NOTE] 本指南适用于 Azure .NET 存储客户端库 2.x 及更高版本。建议使用的版本是存储客户端库 3.x，可通过 NuGet 或 Azure SDK for .NET 2.3 获得。有关如何获取存储客户端库的详细信息，请参阅[如何：以编程方式访问表存储][]。
 
 ## 目录
 
@@ -121,8 +123,8 @@ Azure SDK for .NET 中也包括了 `Microsoft.WindowsAzure.Storage.dll`，可从
 
 可以使用 **CloudStorageAccount** 类型来表示你的存储
 帐户信息。如果你使用的
-是 Windows Azure 项目模板并且/或者引用了
- Microsoft.WindowsAzure.CloudConfigurationManager 命名空间，
+是 Azure 项目模板并且/或者引用了
+Microsoft.WindowsAzure.CloudConfigurationManager 命名空间，
 则可以使用 **CloudConfigurationManager** 类型
 从 Azure 服务配置中检索你的存储连接字符串和
 存储帐户信息：
@@ -546,14 +548,15 @@ Azure SDK for .NET 中也包括了 `Microsoft.WindowsAzure.Storage.dll`，可从
 -   在以下位置了解使用 Azure 存储空间能够执行的更高级任务：[在 Azure 中存储和访问数据][]。
 -   查看更多功能指南，以了解在 Azure 中存储数据的其他方式。
     -   使用 [Blob 存储][]来存储非结构化数据。
+    -   使用[队列存储][]来存储结构化数据。
     -   使用 [SQL Database][] 来存储关系数据。
 
   [后续步骤]: #next-steps
+  [如何：以编程方式访问表存储]: #configure-access
   [什么是表服务？]: #what-is
   [概念]: #concepts
   [创建 Azure 存储帐户]: #create-account
   [设置存储连接字符串]: #setup-connection-string
-  [如何：以编程方式访问表存储]: #configure-access
   [如何：创建表]: #create-table
   [如何：将实体添加到表]: #add-entity
   [如何：插入一批实体]: #insert-batch
@@ -567,11 +570,11 @@ Azure SDK for .NET 中也包括了 `Microsoft.WindowsAzure.Storage.dll`，可从
   [如何：删除表]: #delete-table
   [howto-table-storage]: ../includes/howto-table-storage.md
   [create-storage-account]: ../includes/create-storage-account.md
-  [Blob5]: ./media/storage-dotnet-how-to-use-table-storage-20/blob5.png
-  [Blob6]: ./media/storage-dotnet-how-to-use-table-storage-20/blob6.png
-  [Blob7]: ./media/storage-dotnet-how-to-use-table-storage-20/blob7.png
-  [Blob8]: ./media/storage-dotnet-how-to-use-table-storage-20/blob8.png
-  [Blob9]: ./media/storage-dotnet-how-to-use-table-storage-20/blob9.png
+  [Blob5]: ./media/storage-dotnet-how-to-use-table-storage/blob5.png
+  [Blob6]: ./media/storage-dotnet-how-to-use-table-storage/blob6.png
+  [Blob7]: ./media/storage-dotnet-how-to-use-table-storage/blob7.png
+  [Blob8]: ./media/storage-dotnet-how-to-use-table-storage/blob8.png
+  [Blob9]: ./media/storage-dotnet-how-to-use-table-storage/blob9.png
   [配置连接字符串]: http://msdn.microsoft.com/zh-cn/library/azure/ee758697.aspx
   [.NET 开发人员中心]: http://azure.microsoft.com/zh-cn/develop/net/
   [OData]: http://nuget.org/packages/Microsoft.Data.OData/5.0.2
@@ -581,5 +584,6 @@ Azure SDK for .NET 中也包括了 `Microsoft.WindowsAzure.Storage.dll`，可从
   [.NET 存储客户端库参考]: http://msdn.microsoft.com/zh-cn/library/azure/wa_storage_30_reference_home.aspx
   [REST API 参考]: http://msdn.microsoft.com/zh-cn/library/azure/dd179355
   [在 Azure 中存储和访问数据]: http://msdn.microsoft.com/zh-cn/library/azure/gg433040.aspx
-  [Blob 存储]: /en-us/develop/net/how-to-guides/blob-storage/
-  [SQL Database]: /en-us/develop/net/how-to-guides/sql-database/
+  [Blob 存储]: /en-us/documentation/articles/storage-dotnet-how-to-use-blobs/
+  [队列存储]: /en-us/documentation/articles/storage-dotnet-how-to-use-queues/
+  [SQL Database]: /en-us/documentation/articles/sql-database-dotnet-how-to-use/
